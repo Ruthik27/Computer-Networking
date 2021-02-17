@@ -120,3 +120,76 @@
 >>frame check sequence - 4 bytes
 
 >>CRC
+
+
+>The Network Layer
+>>IP(internet Protocol).
+>>>IP add belongs to netw. not to the devices attactes to those networks.
+>>>32 bit 
+>>>8 bit - (0-255)
+>>>Dynamic host Configuration Protocol - Dynamic Ip add
+>>> Static IP add --
+>>>IP datagram 
+>>>> IPV4
+>>>>>version 4 bits
+>>>>>header len - 4 bit (20 byte)
+>>>>>service type - 8 bit
+>>>>>total len - 16 bit
+
+>>>>> identification - 16 bit
+>>>>> flag - 
+>>>>> fragmentation - 
+
+>>>>> TTL - 8 bit
+>>>>>protocol - 8 bit 
+>>>>>header check - 16 bit
+
+>>>>>source IP
+>>>>>destination IP 
+
+>>>>>options 
+>>>>>padding
+
+>>network and host id
+>>>class A (1:3)
+>>>> 0-126 (16 million)
+>>>class B (2:2)
+>>>>128-191 (64,000)
+>>>class C (3:1)
+>>>>192-224 (254)
+
+>>>class D
+>>>class E 
+
+>>CIDR -
+>>>classless inter domain
+>>>demarctation point
+>>>CIDR notation
+
+
+>>ARP 
+>>>ARP table
+
+>>subnetting
+>>>subnet ID
+>>>subnet mask (magic no)
+
+>>binary math
+>>>OR
+>>>AND
+
+>>routing 
+>>>router
+>>routing tables
+
+>>routing protocols
+
+>>>Interior Gateway Protocols
+>>>>link state
+>>>>distance state
+>>>Exterior Gateway Protocols
+
+>>IANA - 
+>>ASN -
+
+>>non routable address space
