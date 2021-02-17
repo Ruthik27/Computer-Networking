@@ -45,9 +45,7 @@
 >>>MAC add. - 48 bit 2 to power 48 
 
 >>>>OUI 
-
 >>>>hexa decimal 
-
 >>>>octact  - 8 bits
 
 
