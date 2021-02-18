@@ -1,13 +1,45 @@
 
 
 >Protocols
->
->Computer Networking
->
+>>A protocol is the set of rules or algorithms which define the way how two entities can communicate across the network
+
+>**Host name**
+>>Each device in the network is associated with a unique device name known as Hostname.
+
+>**Computer Networking**
+>>An interconnection of multiple devices, also known as hosts, that are connected using multiple paths for the purpose of sending/receiving data or media. Computer networks can also include multiple devices/mediums which help in the communication between two different devices; these are known as **Network devices** and include things such as routers, switches, hubs, and bridges.
+
+>**Network Topology**
+>>The layout arrangement of the different devices in a network. Common examples include: Bus, Star, Mesh, Ring, and Daisy chain. 
+
+>IP add.(Internet Protocol address / Logical Address)
+>>the IP Address is the network address of the system across the network. To identify each device in the world-wide-web, the Internet Assigned Numbers Authority (IANA) assigns an IP.
+
+>MAC Address (Media Access Control address / physical address)
+>>the MAC Address is the unique identifier of each host and is associated with its NIC (Network Interface Card).
+
+>Port
+>>16-bit 
+>>A port can be referred to as a logical channel through which data can be sent/received to an application. Any host may have multiple applications running, and each of these applications is identified using the port number on which they are running. 
+>>
+>>Types:
+>>>Well known Ports	0 – 1023
+>>>
+>>>Registered Ports	1024 – 49151
+>>>
+>>>Ephemeral Ports	49152 – 65535
+
+>Socket
+>>The unique combination of IP address and Port number together are termed as Socket.
+
+>DNS(Domain Name system)
+>>DNS is basically a server which translates web addresses or URLs (ex: www.google.com) into their corresponding IP addresses. We don’t have to remember all the IP addresses of each and every website.
+
 >TCP/IP model
 >
->OSI model
->
+>OSI model (Open Systems Interconnection)
+>>It is a reference model that specifies standards for communications protocols and also the functionalities of each layer.
+
 >DNS & DHCP
 >
 > 5 LAYER MODEL
