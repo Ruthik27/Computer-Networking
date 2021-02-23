@@ -151,13 +151,91 @@ Types of Network Topology
 >
 >Tree Topology
 >>This topology is the variation of Star topology. This topology have hierarchical flow of data.
+>>
+>>The various secondary hubs are connected to the central hub which contains the repeater. In this data flow from top to bottom or from bottom to top
+>>
+>>ADVANTAGE:
+>>>It allows more devices to be attached to a single central hub
+>>>
+>>>It allows the network to get isolate and also prioritize from different computers.
+>>
+>>DISADVANT:
+>>>If the central hub gets fails the entire system fails.
+>>>
+>>>The cost is high because of cabling.
 
-
-
-
-
-
-
+Types of area networks:
+>Local Area Network (LAN)
+>>The group of computers and devices are connected together by a switch, or stack of switches, using a private addressing scheme as defined by the TCP/IP protocol. 
+>>
+>>Routers are found at the boundary of a LAN, connecting them to the larger WAN.
+>>
+>>Data transmits at a very fast rate as the number of computers linked are limited.Early LAN’s had data rates in the 4 to 16 Mbps range. Today, speeds are normally 100 or 1000 Mbps.
+>>
+>>The connections must be high speed and relatively inexpensive hardware
+>>
+>>LANs cover smaller geographical area (Size is limited to a few kilometers) and are privately owned. It covers a short distance, and so the error and noise are minimized.
+>>
+>>LAN is easy to design and maintain.
+>>
+>>A Communication medium used for LAN has twisted pair cables and coaxial cables
+>>
+>>The smallest LAN may only use two computers, while larger LANs can accommodate thousands of computers.
+>>
+>>A LAN typically relies mostly on wired connections for increased speed and security, but wireless connections can also be part of a LAN.
+>>
+>>The fault tolerance of a LAN is more and there is less congestion in this network.
+>>
+>Metropolitan Area Network (MAN)
+>>covers a larger area than that of a LAN and smaller area as compared to WAN
+>>
+>>Connects two or more computers that are apart but resides in the same or different cities. It covers a large geographical area and may serve as an ISP (Internet Service Provider).
+>>
+>>Is designed for customers who need a high-speed connectivity.Speeds of MAN ranges in terms of Mbps.
+>>
+>>It’s hard to design and maintain a Metropolitan Area Network.
+>>
+>>It is costly and may or may not be owned by a single organization
+>>
+>>The data transfer rate and the propagation delay of MAN is moderate.
+>>
+>>Devices used for transmission of data through MAN are: Modem and Wire/Cable.
+>>
+>>The fault tolerance of a MAN is less and also there is more congestion in the network.
+>>
+>Wide Area Network (WAN)
+>>Computer network that extends over a large geographical area, although it might be confined within the bounds of a state or country.
+>>
+>>A WAN could be a connection of LAN connecting to other LAN’s 
+>>
+>>The technology is high speed and relatively expensive.
+>>
+>>Types of WAN:
+>>>Switched WAN
+>>>
+>>>Point-to-Point WAN
+>>
+>>Difficult to design and maintain.
+>>
+>>The fault tolerance of a WAN is less and there is more congestion in the network
+>>
+>>Communication medium -  PSTN or Satellite Link.
+>>
+>>Due to long distance transmission, the noise and error tend to be more in WAN.
+>>
+>>WAN’s data rate is slow about a 10th LAN’s speed, speed ranges from few Kbps to Mbps
+>>
+>>Propagation delay is one of the biggest problems faced here
+>>
+>>Devices used for transmission of data through WAN are: Optic wires, Microwaves and Satellites.
+>
+>PAN (Personal Area Network)
+>
+>SAN (Storage Area Network)
+>
+>EPN (Enterprise Private Network)
+>
+>VPN (Virtual Private Network)
 
 
 
