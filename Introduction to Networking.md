@@ -237,12 +237,21 @@ Types of area networks:
 >
 >VPN (Virtual Private Network)
 
-
-
-
-
-
-
+Layers of OSI Model (Open Systems Interconnection):
+>Responsible for the actual physical connection between the devices.
+>
+>The physical layer contains information in the form of bits. It is responsible for transmitting individual bits from one node to the next. 
+>
+>Functions of the physical layer:
+>>1. Bit synchronization: The physical layer provides the synchronization of the bits by providing a clock. This clock controls both sender and receiver thus providing synchronization at bit level.
+>>
+>>2. Bit rate control: The Physical layer also defines the transmission rate i.e. the number of bits sent per second.
+>>
+>>3. Physical topologies: Physical layer specifies the way in which the different, devices/nodes are arranged in a network i.e. bus, star or mesh topolgy.
+>>
+>>4. Transmission mode: Physical layer also defines the way in which the data flows between the two connected devices. The various transmission modes possible are: Simplex, half-duplex and full-duplex.
+>
+>Hub, Repeater, Modem, Cables are Physical Layer devices
 
 
 
