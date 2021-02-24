@@ -343,6 +343,59 @@ The receiving device sends an acknowledgement, back to the source after a packet
 >
 >>Transport Layer is called as Heart of OSI model.
 
+>Session Layer (Layer 5) :
+>>Responsible for establishment of connection, maintenance of sessions, authentication and also ensures security.
+>
+>>Functions: 
+>>>1. Session establishment, maintenance and termination: The layer allows the two processes to establish, use and terminate a connection.
+>>>
+>>>2. Synchronization : This layer allows a process to add checkpoints which are considered as synchronization points into the data. These synchronization point help to identify the error so that the data is re-synchronized properly, and ends of the messages are not cut prematurely and data loss is avoided.
+>>>
+>>>3. Dialog Controller : The session layer allows two systems to start communication with each other in half-duplex or full-duplex.
+>
+>>All the below 3 layers(including Session Layer) are integrated as a single layer in the TCP/IP model as “Application Layer”.
+>>
+>>Implementation of these 3 layers is done by the network application itself. These are also known as Upper Layers or Software Layers.
+
+>Presentation Layer (Layer 6) /  Translation layer:
+>>The data from the application layer is extracted here and manipulated as per the required format to transmit over the network.
+>
+>>Functions:
+>>>1. Translation : For example, ASCII to EBCDIC.
+>>>
+>>>2. Encryption/ Decryption : Data encryption translates the data into another form or code. The encrypted data is known as the cipher text and the decrypted data is known as plain text. A key value is used for encrypting as well as decrypting data.
+>>>
+>>>3. Compression: Reduces the number of bits that need to be transmitted on the network.
+
+>Application Layer (Layer 7) / Desktop Layer:
+>>At the very top of the OSI Reference Model stack of layers, we find Application layer which is implemented by the network applications.
+>>
+>>These applications produce the data, which has to be transferred over the network.
+>>
+>>This layer also serves as a window for the application services to access the network and for displaying the received information to the user.
+>
+>>Functions:
+>>>1. Network Virtual Terminal
+>>>
+>>>2. FTAM-File transfer access and management
+>>>
+>>>3. Mail Services
+>>>
+>>>4. Directory Services
+>
+>>Ex: Application – Browsers, Skype Messenger etc.
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
