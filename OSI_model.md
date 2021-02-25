@@ -3,6 +3,8 @@
 
 >Physical Layer (Layer 1):
 >>The physical layer contains information in the form of bits. It is responsible for transmitting individual bits from one node to the next. 
+>>
+>>Physical devices that interconnect each other
 >
 >>Functions of the physical layer:
 >>>1. Bit synchronization: The physical layer provides the synchronization of the bits by providing a clock. This clock controls both sender and receiver thus providing synchronization at bit level.
@@ -16,7 +18,7 @@
 >>Hub, Repeater, Modem, Cables are Physical Layer devices
 
 >Data Link Layer (Layer 2):
->>Responsible for the node to node delivery of the message.
+>>Responsible for the node to node delivery of the message. / for defining a comman way of interpreting these signals so network devices can communicate.
 >>
 >>Main function of this layer is to make sure data transfer is error-free from one node to another, over the physical layer.
 >>
@@ -46,8 +48,11 @@
 >
 >>Switch & Bridge are Data Link Layer devices.
 
+
+
+
 >Network Layer (Layer 3) :
->>works for the transmission of data from one host to the other located in different networks.
+>>works for the transmission of data from one host to the other located in different networks./ allows different networks to communicate with each other through devices known as routers.
 >>
 >>It also takes care of packet routing i.e. selection of the shortest path to transmit the packet, from the number of routes available.
 >>
@@ -61,6 +66,10 @@
 >>>2. Logical Addressing: In order to identify each device on internetwork uniquely, network layer defines an addressing scheme.The sender & receiver’s IP address are placed in the header by network layer. Such an address distinguishes each device uniquely and universally.
 >
 >>Network layer is implemented by networking devices such as routers.
+
+
+
+
 
 >Transport Layer (Layer 4) :
 >>Provides services to application layer and takes services from network layer.
@@ -103,6 +112,13 @@ The receiving device sends an acknowledgement, back to the source after a packet
 >>2. Connection less service: It is a one-phase process and includes Data Transfer. In this type of transmission, the receiver does not acknowledge receipt of a packet. This approach allows for much faster communication between devices. Connection-oriented service is more reliable than
 >
 >>Transport Layer is called as Heart of OSI model.
+
+
+
+
+
+
+
 
 >Session Layer (Layer 5) :
 >>Responsible for establishment of connection, maintenance of sessions, authentication and also ensures security.
