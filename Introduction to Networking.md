@@ -164,8 +164,8 @@ Types of Network Topology
 >>>
 >>>The cost is high because of cabling.
 
-Types of area networks:
->Local Area Network (LAN)
+***Types of area networks:***
+>**Local Area Network (LAN)**
 >>The group of computers and devices are connected together by a switch, or stack of switches, using a private addressing scheme as defined by the TCP/IP protocol. 
 >>
 >>Routers are found at the boundary of a LAN, connecting them to the larger WAN.
@@ -186,7 +186,7 @@ Types of area networks:
 >>
 >>The fault tolerance of a LAN is more and there is less congestion in this network.
 >>
->Metropolitan Area Network (MAN)
+>**Metropolitan Area Network (MAN)**
 >>covers a larger area than that of a LAN and smaller area as compared to WAN
 >>
 >>Connects two or more computers that are apart but resides in the same or different cities. It covers a large geographical area and may serve as an ISP (Internet Service Provider).
@@ -203,7 +203,7 @@ Types of area networks:
 >>
 >>The fault tolerance of a MAN is less and also there is more congestion in the network.
 >>
->Wide Area Network (WAN)
+>**Wide Area Network (WAN)**
 >>Computer network that extends over a large geographical area, although it might be confined within the bounds of a state or country.
 >>
 >>A WAN could be a connection of LAN connecting to other LAN’s 
@@ -229,13 +229,24 @@ Types of area networks:
 >>
 >>Devices used for transmission of data through WAN are: Optic wires, Microwaves and Satellites.
 >
->PAN (Personal Area Network)
+>**PAN (Personal Area Network)**
+>>A personal area network (PAN) is a computer network organized around an individual for personal use only. They typically involve a computer, phone, printer, tablet, or some other device like a PDA.
+>>
+>>they transmit information between devices that are nearby instead of sending that same data through a LAN or WAN before it reaches something that's already within reach.
+>>
+>>Personal area networks can be wireless or constructed with cables.
+>>
+>>Wireless personal area networks cover a range of a few centimeters up to around 10 meters (33 feet) / With Bluetooth, such a setup could be as large as 100 meters (330 feet). These networks are a particular type (or subset) of local area networks that support one person instead of a group.
+>>
+>>PANs can still access the internet under certain conditions. For example, a device within a PAN can connect to a LAN which has access to the internet, which is itself a WAN.
+>>
+>>a WPAN is considered a secure network. However, just like with WLANs and other network types, hackers can still access unsecured PANs.
 >
->SAN (Storage Area Network)
+>**SAN (Storage Area Network)**
 >
->EPN (Enterprise Private Network)
+>**EPN (Enterprise Private Network)**
 >
->VPN (Virtual Private Network)
+>**VPN (Virtual Private Network)**
 
 
 
