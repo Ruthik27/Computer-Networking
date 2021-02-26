@@ -63,8 +63,13 @@ Goals of Networks
 >>3. Inter-process Communication
 >>4. Flexible access
 
-Types of Network Topology
->Mesh Topology
+***Types of Network Topology***
+>Refers to the layout af a computer network.
+>>Physical topology : layout of the network media that shows the interconnections of the devices on the network.
+>>
+>>Logical topology : emphasis on the manner in which data is transmitted between network nodes.
+>
+>**Mesh Topology**
 >>In mesh topology, every device is connected to another device via particular channel.
 >>
 >>Ports that is required by each device is : N-1
@@ -85,7 +90,7 @@ Types of Network Topology
 >>>
 >>>Cost of maintenance is high.
 >
->Star Topology
+>**Star Topology**
 >>All the devices are connected to a single hub through a cable.This hub is the central node and all others nodes are connected to the central node.
 >>
 >> No of ports: 1 per device
@@ -106,7 +111,7 @@ Types of Network Topology
 >>>
 >>>Performance is based on the single concentrator i.e. hub.
 >
->Bus Topology
+>**Bus Topology**
 >>A network type in which every computer and network device is connected to single cable. It transmits the data from one end to another in single direction.
 >>No bi-directional feature is in bus topology.
 >>
@@ -121,7 +126,7 @@ Types of Network Topology
 >>>If the network traffic is heavy, it increases collisions in the network.
 >>>>To avoid - various protocols are used in MAC layer known as Pure Aloha, Slotted Aloha, CSMA/CD etc.
 >
->Ring Topology
+>**Ring Topology**
 >>It forms a ring connecting devices with its exactly two neighboring devices.
 >>> Number of repeaters are used for Ring topology with a large number of nodes -bcoz because if someone wants to send some data to the last node in the ring topology with 100 nodes, then the data will have to pass through 99 nodes to reach the 100th node. Hence to prevent data loss repeaters are used in the network.
 >>
@@ -149,7 +154,7 @@ Types of Network Topology
 >>>
 >>>Addition of stations in between or removal of stations can disturb the whole topology.
 >
->Tree Topology
+>**Tree Topology / Hierarchical Topology**
 >>This topology is the variation of Star topology. This topology have hierarchical flow of data.
 >>
 >>The various secondary hubs are connected to the central hub which contains the repeater. In this data flow from top to bottom or from bottom to top
@@ -248,11 +253,42 @@ Types of Network Topology
 >
 >**VPN (Virtual Private Network)**
 
+Ad Hoc network (connection within 100 meters)
+>An ad hoc network is one that is spontaneously formed when devices connect and communicate with each other. / connection is temporary.(temporary type of Local Area Network (LAN)-f you set up an ad hoc network permanently, it becomes a LAN.)
+>
+>In ad hoc mode, you can set up a wireless connection directly to another computer or device without having to connect to a Wi-Fi access point or router.
+>
+>Users can also employ an ad hoc network to access the internet, as long as the hosting device can access the internet. This might be useful if only one small area of a location can access the internet, but multiple people need to get online.
+>
+>Due to the nature of an ad hoc connection not needing an existing infrastructure to sustain the network, it's entirely decentralized and is considered a peer-to-peer network.
+>>If cyber-attackers get within signal range, they will generally be able to connect to a wireless ad hoc network and, therefore, to the device.
+>>
+>>Users cannot disable their SSID broadcast ( Service Set Identifier-function which is performed by Access Point that broadcasts its name by default /SSID basically indicates the name of your router or network) in ad hoc mode, meaning that the network name cannot be hidden if users are in a public place.
+>
+>Ad hoc networks can be classified into several types depending upon the nature of their applications.
+>>1. Mobile ad hoc network (MANETs) ( wireless adhoc network / adhoc wireless network)
+>>> Consist of set of mobile nodes connected wirelessly in a self configured, self healing network without having a fixed infrastructure. MANET nodes are free to move randomly as the network topology changes frequently.
+>>
+>>2. Vehicular ad hoc networks (VANETs)
+>>>Enable effective communication with another vehicle or with the roadside equipments.Intelligent vehicular ad hoc networks(InVANETs) deals with another vehicle or with the roadside euipments.
+>>
+>>3. Smart phone ad hoc networks (SPANs)
+>>>To create peer-to-peer network without relying on cellular carrier networks, wireless access points or traditional network infrasture.Here peer can join or leave the network without destroying it.
+>>
+>>4. Internet based Mobile Ad hoc Network (iMANETs) –
+>>>It supports internet protocols such as TCP/UDP and IP. To link mobile nodes and establish routes distributed and automatically.
+>>
+>>5. Military or Tactical MANETs –
+>>>This is used by the military units. Emphasis on data rate, real time demand, fast re-routing during mobility, security, radio range, etc.
+>>
+>>6. Flying Ad hoc Network (FANETs) –
+>>>This is composed of unmanned aerial vehicle (commonly known as drone). Provides links to remote areas and mobility.
 
 
 
+What's the difference between a Personal Area Network (PAN) and an ad-hoc network?
 
-
+From memory. A PAN is more like Bluetooth, short range low bandwidth network capable of connecting your mobile or laptop to printers, speakers and such. An ad hoc network usually refers to the 802.11 wireless networks where an endpoint can host the network instead of the more typical access point / wireless router. When I set my mobile phone to hotspot mode it becomes an ad hoc wireless network provider. My computer can connect to the hot spot via WiFi or via Bluetooth.
 
 
 
