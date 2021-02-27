@@ -43,6 +43,47 @@ DHCP
 >options
 >prefered IP config
 
+Components and processes of DHCP 
+>DHCP relay / IP helper
+
+DNS servers
+>DNS
+different levels of DNS servers
+>Local DNS servers
+>Top level Domain (TLD) server
+>Root server
+Authoritative
+NON-Authoritative 
+
+DNS records
+>A record
+>AAAA record
+>CNAME record
+>PTR record
+>MX record
+
+Dynamic DNS (DDNS)
+DDNS updating
+
+Network Address Translation (NAT)
+>static NAT (SNAT)
+>Dynamic NAT (DNAT)
+>Port address translation (PAT)
+
+NAT terminology
+>Inside local address
+>Inside global address
+>Outside global address
+>Outside local address
+
+
+
+
+
+
+
+
+
 
 
 
