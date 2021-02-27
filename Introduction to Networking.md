@@ -253,7 +253,7 @@ Goals of Networks
 >
 >**VPN (Virtual Private Network)**
 
-Ad Hoc network (connection within 100 meters)
+***Ad Hoc network (connection within 100 meters)***
 >An ad hoc network is one that is spontaneously formed when devices connect and communicate with each other. / connection is temporary.(temporary type of Local Area Network (LAN)-f you set up an ad hoc network permanently, it becomes a LAN.)
 >
 >In ad hoc mode, you can set up a wireless connection directly to another computer or device without having to connect to a Wi-Fi access point or router.
@@ -284,12 +284,94 @@ Ad Hoc network (connection within 100 meters)
 >>6. Flying Ad hoc Network (FANETs) –
 >>>This is composed of unmanned aerial vehicle (commonly known as drone). Provides links to remote areas and mobility.
 
-
-
 What's the difference between a Personal Area Network (PAN) and an ad-hoc network?
 
 From memory. A PAN is more like Bluetooth, short range low bandwidth network capable of connecting your mobile or laptop to printers, speakers and such. An ad hoc network usually refers to the 802.11 wireless networks where an endpoint can host the network instead of the more typical access point / wireless router. When I set my mobile phone to hotspot mode it becomes an ad hoc wireless network provider. My computer can connect to the hot spot via WiFi or via Bluetooth.
 
+***Transmission Medium***
+>A transmission medium is a physical path between the transmitter and the receiver i.e it is the channel through which data is sent from one place to another
+
+>[ I ]. Guided Media (Wired / Bounded transmission media)
+>>Signals being transmitted are directed and confined in a narrow pathway by using physical links.
+>>
+>>Features:  
+>>>High Speed
+>>>
+>>>Secure
+>>>
+>>>Used for comparatively shorter distances
+>
+>1. Twisted Pair Cable – 
+>>It consists of 2 separately insulated conductor wires wound about each other. Generally, several such pairs are bundled together in a protective sheath. They are the most widely used Transmission Media.
+>>>Unshielded Twisted Pair (UTP):
+>>>>This type of cable has the ability to block interference and does not depend on a physical shield for this purpose. It is used for telephonic applications. 
+>>>>Least expensive
+>>>>
+>>>>Easy to install
+>>>>
+>>>>High-speed capacity
+>>>>
+>>>>Susceptible to external interference
+>>>>
+>>>>Lower capacity and performance in comparison to STP
+>>>>
+>>>>Short distance transmission due to attenuation
+>>
+>>>Shielded Twisted Pair (STP): 
+>>>>This type of cable consists of a special jacket to block external interference. It is used in fast-data-rate Ethernet and in voice and data channels of telephone lines.
+>>>>Better performance at a higher data rate in comparison to UTP
+>>>>
+>>>>Eliminates crosstalk
+>>>>
+>>>>Comparatively faster
+>>>>
+>>>>Comparatively difficult to install and manufacture
+>>>>
+>>>>More expensive
+>>>>
+>>>>Bulky
+>
+>2. Coaxial Cable –
+>>It has an outer plastic covering containing 2 parallel conductors each having a separate insulated protection cover.Cable TVs and analog television networks widely use Coaxial cables.
+>>
+>>The coaxial cable transmits information in two modes:
+>>>Baseband mode(dedicated cable bandwidth)
+>>>
+>>>Broadband mode(cable bandwidth is split into separate ranges)
+>>>>High Bandwidth
+>>>>
+>>>>Better noise Immunity
+>>>>
+>>>>Easy to install and expand
+>>>>
+>>>>Inexpensive
+>>>>
+>>>>Single cable failure can disrupt the entire network
+>
+>3. Optical Fibre Cable – 
+>>It uses the concept of reflection of light through a core made up of glass or plastic. The core is surrounded by a less dense glass or plastic covering called the cladding.
+>>
+>>It is used for the transmission of large volumes of data.
+>>
+>>The cable can be unidirectional or bidirectional. The WDM (Wavelength Division Multiplexer) supports two modes, namely unidirectional and bidirectional mode.
+>>
+>>Advantages: 
+>>>Increased capacity and bandwidth
+>>>
+>>>Lightweight
+>>>
+>>>Less signal attenuation
+>>>
+>>>Immunity to electromagnetic interference
+>>>
+>>>Resistance to corrosive materials
+>>
+>>Disadvantages: 
+>>>Difficult to install and maintain
+>>>
+>>>High cost
+>>>
+>>>Fragile
 
 
 
