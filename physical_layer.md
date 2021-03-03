@@ -349,3 +349,31 @@ Used for larger distances.
 >>>If the central hub gets fails the entire system fails.
 >>>
 >>>The cost is high because of cabling.
+
+**Quick View of Ethernet Cables Cat5, Cat5e And Cat6 / twisted-pair copper cables**
+
+>**Cat 5**
+>>Category 5 (Cat5) has four twisted pairs of copper wire terminated by RJ45 connector.
+>>Category 5 cable has a bandwidth of up to 100 MHz, support 10 or 100 Mbps speed.
+>>Cables belonging to Category 5 are either solid or stranded:
+>>>Solid Cat 5 is more rigid, and the better choice if data needs to be transmitted over a long distance
+>>>Stranded Cat 5 is very flexible and most likely to be used as patch cable the maximum length (maximum certifiable length) for Cat 5 patch or crossover cables is 100 meters.
+>>
+>>Used for ATM, taken ring, Ethernet 1000Base-T, 100Bast-T, and 10Base-T networking
+
+>**Cat 5e**
+>>Enhanced version of Category 5 cable
+>>Cat5e speed can reach up to 1000 Mbps "gigabit"
+>>Used in the home networking environment with various lengths.
+
+>**Cat 6**
+>>Made with 23guage conductor wire as opposed to the slightly smaller 24guage for Cat5e.
+>>It also has a separator to handle crosstalk better.
+>>This separator isolates each of the four pairs of twisted wire from the others, which reduces crosstalk, allows for faster data transfer, and gives Cat6 bandwidth twice than that of Cat 5
+>>Cat6 cable is ideal for supporting 10 Gigabit Ethernet speed, and is able to operate at up to 250MHz.
+**
+ * **Cat5 vs Cat5e Cable**
+The differences between Cat5 and Cat5e show in all aspects of performance: network support, cross talk and bandwidth. Cat5e internet cable supports Ethernet, Fast Ethernet, and Gigabit Ethernet speed while Cat5 cable speed just supports the former two. CAT5e cable patch is completely backwards compatible, and can be used in any application in which you would normally use CAT 5 cable. In addition, cross talk has been reduced greatly in Cat5e cabling compared with Cat5 cable. Besides, Cat5e is rated at 350Mhz, which allows it support increased bandwidth than Cat5.
+
+ * **Cat5e vs Cat6 Cable**
+The general difference between category 5e and category 6 is in the transmission performance. While Cat5e can support gigabit speeds, Cat6 is certified to handle gigabit Ethernet. Additionally, the Cat6 specification is better suited toward environments that are generally unfriendly to twisted pair cabling. This includes areas that have lots of interference from things like power lines, lights, and manufacturing equipment. Still, for most applications, Cat5e is perfectly suitable and preferable to Cat6: it is more economical and performs almost as well. However, if you can be certain that all the components on your network are gigabit rated, and the volume of the data being transmitted calls for certified gigabit performance, then Cat6 is the way to go.
