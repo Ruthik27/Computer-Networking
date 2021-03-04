@@ -221,9 +221,10 @@ From memory. A PAN is more like Bluetooth, short range low bandwidth network cap
 Less Secure.
 Used for larger distances.
 >
->1. Radiowaves – 
+>1. **Radiowaves / RadioSpectrum / EM Waves ** –
+>> * Longest waves in the electromagnetic spectrum. 
 >> * These are easy to generate and can penetrate through buildings.
->> * The sending and receiving antennas need not be aligned.
+>> * The sending and receiving antennas need not be aligned. Trasmitters used to generate radio waves artificially which are received by receivers using antenas.
 >> * Frequency Range:3KHz – 1GHz.
 >> * AM and FM radios and cordless phones use Radiowaves for transmission. 
 >>>Further Categorized as (i) Terrestrial and (ii) Satellite. 
@@ -377,3 +378,32 @@ The differences between Cat5 and Cat5e show in all aspects of performance: netwo
 
  * **Cat5e vs Cat6 Cable**
 The general difference between category 5e and category 6 is in the transmission performance. While Cat5e can support gigabit speeds, Cat6 is certified to handle gigabit Ethernet. Additionally, the Cat6 specification is better suited toward environments that are generally unfriendly to twisted pair cabling. This includes areas that have lots of interference from things like power lines, lights, and manufacturing equipment. Still, for most applications, Cat5e is perfectly suitable and preferable to Cat6: it is more economical and performs almost as well. However, if you can be certain that all the components on your network are gigabit rated, and the volume of the data being transmitted calls for certified gigabit performance, then Cat6 is the way to go.
+
+**Design issues for Layers**
+
+>* Reliability
+>>Network channels and components may be unreliable, resulting in loss of bits while data transfer. So, an important design issue is to make sure that the information transferred is not distorted.
+
+>* Scalability
+>>Networks are continuously evolving. The sizes are continually increasing leading to congestion. Also, when new technologies are applied to the added components, it may lead to incompatibility issues. Hence, the design should be done so that the networks are scalable and can accommodate such additions and alterations.
+
+>* Addressing
+>>At a particular time, innumerable messages are being transferred between large numbers of computers. So, a naming or addressing system should exist so that each layer can identify the sender and receivers of each message.
+
+>* Error Control
+>>Unreliable channels introduce a number of errors in the data streams that are communicated. So, the layers need to agree upon common error detection and error correction methods so as to protect data packets while they are transferred.
+
+>* Flow Control
+>>If the rate at which data is produced by the sender is higher than the rate at which data is received by the receiver, there are chances of overflowing the receiver. So, a proper flow control mechanism needs to be implemented.
+
+>* Resource Allocation
+>>Computer networks provide services in the form of network resources to the end users. The main design issue is to allocate and deallocate resources to processes. The allocation/deallocation should occur so that minimal interference among the hosts occurs and there is optimal usage of the resources.
+
+>* Statistical Multiplexing
+>>It is not feasible to allocate a dedicated path for each message while it is being transferred from the source to the destination. So, the data channel needs to be multiplexed, so as to allocate a fraction of the bandwidth or time to each host.
+
+>* Routing
+>>There may be multiple paths from the source to the destination. Routing involves choosing an optimal path among all possible paths, in terms of cost and time. There are several routing algorithms that are used in network systems.
+
+>* Security
+>>A major factor of data communication is to defend it against threats like eavesdropping and surreptitious alteration of messages. So, there should be adequate mechanisms to prevent unauthorized access to data through authentication and cryptography.
