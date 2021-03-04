@@ -83,7 +83,7 @@
 >**VPN (Virtual Private Network)**
 
 ***Ad Hoc network (connection within 100 meters)***
->An ad hoc network is one that is spontaneously formed when devices connect and communicate with each other. / connection is temporary.(temporary type of Local Area Network (LAN)-f you set up an ad hoc network permanently, it becomes a LAN.)
+>An ad hoc network is one that is spontaneously formed when devices connect and communicate with each other. / connection is temporary.(temporary type of Local Area Network (LAN)-if you set up an ad hoc network permanently, it becomes a LAN.)
 >
 >In ad hoc mode, you can set up a wireless connection directly to another computer or device without having to connect to a Wi-Fi access point or router.
 >
@@ -407,3 +407,57 @@ The general difference between category 5e and category 6 is in the transmission
 
 >* Security
 >>A major factor of data communication is to defend it against threats like eavesdropping and surreptitious alteration of messages. So, there should be adequate mechanisms to prevent unauthorized access to data through authentication and cryptography.
+
+>**SDN / Software Defines Networking**
+>>A software defined networking architecture it is a network framework which involves in separating a network’s control function from its data forwarding function, and centralizing its intelligence, and abstracting its underlying architecture from applications and services.
+>>
+>>* Control pane
+>>>module which takes all decisions, basically an instructor
+>>>The routing algorithm.
+>>
+>>* Data functionalities 
+>>>Module which carries out the tasks given by the control plane.
+>>>Forwarding of Packets.
+>
+>>Moving from distributed control plane architecture to a centralized plane architecture.
+>>Vendors only provide the hardware (data plane)
+>>We decide the control plane by writing custom logic - the software.
+>>
+>>**Advantages**
+>>> Features are no longer limited to what the vendors provides.
+>>> Community development.
+>>> Longer life Products. 
+>>
+>>SDN - two types of devices-
+>>>Controller
+>>>Switches
+>>
+>>Switches in SDN are blind
+>>>No built in features
+>>>Need to be instructed by the controller.
+
+**Peer-To-Peer Networks /  Peer networking**
+>Peer-to-peer networking is an approach to computer networking in which all computers share equivalent responsibility for processing data.
+
+>* Characteristics 
+>>Common on small local area networks (LANs), particularly home networks.
+>>Both wired and wireless home networks can be configured as peer-to-peer environments.
+>>
+>>Computers in a peer-to-peer network run the same networking protocols and software.
+>>
+>>Peer network devices are often situated physically near one another, typically in homes, small businesses, and schools. Some peer networks, however, use the internet and are geographically dispersed worldwide.
+
+>* Benefits
+>>P2P networks are robust. If one attached device goes down, the network continues. In client-server networks, when the server goes down, it takes the entire network with it.
+>>
+>>On the internet, peer-to-peer networks handle a high volume of file-sharing traffic by distributing the load across many computers.
+>>
+>>Peer networks allow data to be shared in both directions, whether for downloads to a computer or uploads from a computer.
+>>
+>>Peer-to-peer networks are relatively easy to expand. As the number of devices in the network increases, the power of the P2P network increases, as each additional computer is available for processing data.
+
+>* Security Concerns -peer-to-peer networks are vulnerable to security attacks.
+>>1. Because each device participates in routing traffic through the network, hackers can easily launch denial of service attacks.
+>>2. P2P software acts as server and client, which makes peer-to-peer networks more vulnerable to remote attacks than client-server networks.
+>>3. Data that is corrupt can be shared on P2P networks by modifying files that are on the network to introduce malicious code.
+
