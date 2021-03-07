@@ -1,7 +1,5 @@
 **Design issues**
 
-https://youtu.be/eQgRDdBD5Os
-
 >The data link layer in the OSI (Open System Interconnections) Model, is in between the physical layer and the network layer. This layer converts the raw transmission facility provided by the physical layer to a reliable and error-free link.
 
 * Services to the Network Layer
@@ -34,53 +32,28 @@ https://youtu.be/eQgRDdBD5Os
 >>Feedback based flow control.
 >>Rate based flow control.
 ---
-Hamming Code
-Hamming code is a set of error-correction codes that can be used to detect and correct the errors that can occur when the data is moved or stored from the sender to the receiver. It is technique developed by R.W. Hamming for error correction.
+* Hamming Code
+>Hamming code is a set of error-correction codes that can be used to detect and correct the errors that can occur when the data is moved or stored from the sender to the receiver. It is technique developed by R.W. Hamming for error correction.
 
-Redundant bits –
-Redundant bits are extra binary bits that are generated and added to the information-carrying bits of data transfer to ensure that no bits were lost during the data transfer.
+*Hamming Code | Error detection - https://youtu.be/1A_NcXxdoCc*
+
+*Error Correction with Example | Hamming code | CN | Computer Networks | https://youtu.be/nUwGf5ZgqsA*
+
+* Redundant bits –
+>Redundant bits are extra binary bits that are generated and added to the information-carrying bits of data transfer to ensure that no bits were lost during the data transfer.
 The number of redundant bits can be calculated using the following formula:
 >>2^r ≥ m + r + 1 
 >>where, r = redundant bit, m = data bit
 
 
-Parity bits –
-A parity bit is a bit appended to a data of binary bits to ensure that the total number of 1’s in the data is even or odd. Parity bits are used for error detection. There are two types of parity bits:
+* Parity bits –
+>A parity bit is a bit appended to a data of binary bits to ensure that the total number of 1’s in the data is even or odd. Parity bits are used for error detection. There are two types of parity bits:
 >>Even parity bit:
 >>>In the case of even parity, for a given set of bits, the number of 1’s are counted. If that count is odd, the parity bit value is set to 1, making the total count of occurrences of 1’s an even number. If the total number of 1’s in a given set of bits is already even, the parity bit’s value is 0.
+>>
 >>Odd Parity bit:
 >>>In the case of odd parity, for a given set of bits, the number of 1’s are counted. If that count is even, the parity bit value is set to 1, making the total count of occurrences of 1’s an odd number. If the total number of 1’s in a given set of bits is already odd, the parity bit’s value is 0.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+---
 **WAN Technologies**
 *Layer2 Protocols* for point to point serial links.
 >Data from lan pasiing through wan is converted first (called as encapsulation) this data can be converted under 2 protocols - HDLC & PPP 
