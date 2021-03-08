@@ -32,6 +32,46 @@
 >>Feedback based flow control.
 >>Rate based flow control.
 ---
+**Flow Control Protocols:**
+* Unrestricted Simplex Protocol / UTOPIA
+>Simplest though unrealistic protocol.
+>
+>Data is transmitted in one direction only. Both the transmitting and receiving Network Layer are always ready and the proceeding time can be ignored. An infinite buffer space is available and also communication between a Data Link Layer never damages or looses frames.
+>
+>The protocol consists of two distinct procedures, a sender and a receiver. The sender is in the Data Link Layer of the source machine and the receiver is in the Data Link Layer of the destination machine. No sequence numbers and acknowledgments are used, only event type of possible frame_arrival i.e. an arrival of an undamaged frame is bothered.
+
+>The sender is in an infinite while loop just sending data out on to the line as fast as it can. The body of the loop consist of three actions, 
+>>go fetch a packet from the Network Layer, 
+>>construct the outbound frame and 
+>>send the frame on its way. 
+>
+>Only the information field of the frame is used by this protocol, because the other fields have to do with error and flow control and these are no errors or flow control restrictions here.
+
+* Stop and Wait
+>The sender sends one frame and wait for acknowledgment from receiver side.Once the receiver receives the frame, it sends an acknowledgment frame back to the sender.
+>
+>Efficiency of Stop-and-Wait Protocol is worse.
+>>Sender window size of Stop-and-Wait Protocol is 1.
+>>Receiver window size of Stop-and-Wait Protocol is 1.
+>
+>In Stop-and-Wait Protocol, sorting is not necessary.
+>
+>Stop-and-Wait Protocol is half duplex.
+>
+>Efficiency of Stop-and-Wait Protocol is : 1/(1+2*a)
+* Sliding Window
+>The sender sends more than one frame to the receiver side and re-transmits the frame(s) which is/are damaged or suspected.
+>
+>Efficiency of sliding window protocol is better.
+>>Sender window size of sliding window protocol is N.
+>>Receiver window size of sliding window protocol may be 1 or N.
+>
+>In sliding window protocol, sorting may be or may not be necessary.
+>
+>Sliding window protocol is full duplex.
+>
+>Efficiency of sliding window protocol is : N/(1+2*a)
+---
 * Hamming Code
 >Hamming code is a set of error-correction codes that can be used to detect and correct the errors that can occur when the data is moved or stored from the sender to the receiver. It is technique developed by R.W. Hamming for error correction.
 
